@@ -10,13 +10,18 @@
     <h1>Chat Assistant</h1>
     <div id="chat-box"></div>
     <input type="text" id="user-input" placeholder="Type your message..." />
+    <select id="llm-choice">
+        <option value="model1">Model 1</option>
+        <option value="model2">Model 2</option>
+    </select>
     <button id="send-button">Send</button>
 
     <script>
         $(document).ready(function() {
             $('#send-button').click(function() {
                 const userInput = $('#user-input').val();
-                $.post('/chat/', { user_input: userInput }, function(data) {
+                const llmChoice = $('#llm-choice').val();
+                $.post('/chat/', { user_input: userInput, llm_choice: llmChoice }, function(data) {
                     $('#chat-box').append('<div>User: ' + userInput + '</div>');
                     $('#chat-box').append('<div>Assistant: ' + data.response + '</div>');
                     $('#user-input').val('');
