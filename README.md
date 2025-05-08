@@ -1,32 +1,16 @@
-# Chat Assistant
-
-This project implements a Chat Assistant using FastAPI for the backend and JavaScript for the frontend. The assistant allows users to interact with a language model and have continuous conversations.
-
-## Features
-- Frontend built with JavaScript
-- Backend using FastAPI
-- Continuous conversation support
-- User can choose different LLMs
-
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/robot-coder/chat-assistant-project-2.git
-   cd chat-assistant-project-2
-   ```
-2. Install dependencies for the backend:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
-3. Run the FastAPI server:
-   ```bash
-   uvicorn main:app --reload
-   ```
-4. Open the frontend in your browser.
-
-## Deployment
-The Chat Assistant is deployed on Render.com. You can access it [here](#).
-
-## License
-This project is licensed under the MIT License.
+IyBDaGF0IEFzc2lzdGFudAoKVGhpcyBwcm9qZWN0IGltcGxlbWVudHMgYSBD
+aGF0IEFzc2lzdGFudCB1c2luZyBGYXN0QVBJIGZvciB0aGUgYmFja2VuZCBh
+bmQgSmF2YVNjcmlwdCBmb3IgdGhlIGZyb250ZW5kLiBUaGUgYXNzaXN0YW50
+IGFsbG93cyB1c2VycyB0byBpbnRlcmFjdCB3aXRoIGEgbGFuZ3VhZ2UgbW9k
+ZWwgYW5kIGhhdmUgY29udGludW91cyBjb252ZXJzYXRpb25zLgoKIyMgRmVh
+dHVyZXMKLSBGcm9udGVuZCBidWlsdCB3aXRoIEphdmFTY3JpcHQKLSBCYWNr
+ZW5kIHVzaW5nIEZhc3RBUEkKLSBDb250aW51b3VzIGNvbnZlcnNhdGlvbiBz
+dXBwb3J0Ci0gVXNlciBjYW4gY2hvb3NlIGRpZmZlcmVudCBMTE1zCgojIyBT
+ZXR1cCBJbnN0cnVjdGlvbnMKMS4gQ2xvbmUgdGhlIHJlcG9zaXRvcnk6CiAg
+IGBgYGJhc2gKICAgZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9yb2Jv
+dC1jb2Rlci9jaGF0LWFzc2lzdGFudC1wcm9qZWN0LTIuZ2l0CiAgIGNkIGNo
+YXQtYXNzaXN0YW50LXByb2plY3QtMgogICBgYGAKMi4gSW5zdGFsbCBkZXBl
+bmRlbmNpZXMgZm9yIHRoZSBiYWNrZW5kOgogICBgYGBiYXNoCiAgIGNkIGJh
+Y2tlbmQKICAgcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dAogICBg
+YGAKMy4gUnVuIHRoZGYgRmFzdEFQSSBzZXJ2ZXI6CiAgICBgYGBiYXNoCiAg
+IHVuaWZvcm0gbWFpbjphcHAgLS1yZWxvYWQKICAgIGBgYg==
